@@ -22,3 +22,5 @@ export const headerInner = `
   after:left-0
   after:w-full
  `;
+export const headerSidebarBtn =
+  "text-gray-400 cursor-pointer hover:text-gray-700 duration-200";

@@ -2,6 +2,7 @@ import "./globals.css";
 import { Google_Sans_Code } from "next/font/google";
 import ThemeRegistry from "./ThemeRegistry";
 import Header from "./components/Header/Header";
+import SideBar from "./components/Sidebar/SideBar";
 
 
 const googleSans = Google_Sans_Code({
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={` ${googleSans.variable} antialiased`}>
         <ThemeRegistry>
           <Header />
+          <SideBar />
           {children}
         </ThemeRegistry>
       </body>
