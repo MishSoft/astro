@@ -1,12 +1,11 @@
 
-export const headerWrapper = "relative bg-white w-full fixed left-0 top-0  md:py-5 z-50";
-export const headerContainer = "w-full bg-white px-5 py-2 md:px-20";
+export const headerWrapper = "fixed  w-full fixed left-0 top-0  md:py-5 z-50";
+export const headerContainer = "w-full  px-5 py-2 md:px-20";
 export const headerInner = `
-  bg-white
   border
   flex
   items-center justify-between
-  border-gray-100
+  border-gray-100/40
   backdrop-blur-xl
   shadow-xs
   rounded-full

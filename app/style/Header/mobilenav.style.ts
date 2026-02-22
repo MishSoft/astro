@@ -6,12 +6,12 @@ export const mobilenavWrapper = (isNavActive: boolean) => clsx(
   },
 );
 export const mobilenavContainer =
-  "rounded-4xl shadow-xs w-full px-5 py-10 bg-white border border-gray-100";
+  "rounded-4xl shadow-xs w-full px-5 py-10 bg-white/10 backdrop-blur-xl text-white border border-gray-500";
 
   export const mobilenavUl = "flex flex-col items-center gap-5";
 
 export const mobilenavLi = (isActive: boolean) => clsx(
-  "font-semibold text-gray-700",
+  "font-semibold",
   {
     "text-red-500": isActive
   }

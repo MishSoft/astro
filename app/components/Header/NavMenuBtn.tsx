@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 export default function NavMenuBtn() {
   const {toggle, isOpen} = useNavStore()
   return (
-    <button onClick={toggle} className="text-gray-800 cursor-pointer md:hidden">
+    <button onClick={toggle} className="text-white cursor-pointer md:hidden">
       { isOpen ? <IoClose size={25}/> : <CiMenuFries size={25}/>}
     </button>
   )
